@@ -139,6 +139,80 @@
       "responses": [
         "Bengbot adalah chatbot yang siap membantu Anda dalam menjawab pertanyaan dan memberikan informasi tentang layanan kami di bengkel motor."
       ]
+    },
+    {
+      "tag": "layanan Service",
+      "patterns":["apakah bisa servis cvt"],
+      "responses":["bisa, tapi di kenakan biaya tergantung jenis dan cc motornya"]
+    },
+    {
+      "tag": "bore up",
+      "patterns":["Apakah kompresi motor bisa di bore up?"],
+      "responses":[
+        "Disarankan melakukan bore up dengan ukuran yang sesuai dengan standar. apabila melampaui ukuran maka akan menyebabkan menghambat pelepasan panas di mesin"
+      ]
+    },
+    {
+      "tag": "ganti shock",
+      "patterns":["berikan saya tips supaya ga sering ganti shock"],
+      "responses":[
+        "tidak membawa beban yang melebihi beban kapasitas yang disarankan dari motor itu sendiri, karena beban itu berpengaruh dengan keawetan shock breaker itu sendiri"
+      ]
+    },
+    {
+      "tag": "Oli Motor",
+      "patterns":["oli yamalube super sport untuk jenis motor apa?"],
+      "responses":[
+        "diformulasikan khusus untuk perawatan mesin motor 4-Tak modern tipe sport yang mana mempunyai kerapatan mesin yang kecil, material komponen yang lebih baik dan tenaga mesin yang besar"
+      ]
+    },
+    {
+      "tag":"Harga Oli",
+      "patterns":["berapa harga oli yamalube sport"],
+      "responses":["38.000/liter"]
+    },
+    {
+      "tag":"Oli Motor",
+      "patterns":["oli apa yang cocok untuk yamaha NMAX?"],
+      "responses":[
+        "cocok dengan oli Motul GP Matic 10W 40, Yamahalube Super Matic, Petroasia Revol Matic SAE 10W40 API SL, PTT Lubricants Challenger Scooter SAE 10W30, Shell Matic Ulyra dan masih banyak pilihan lagi"
+      ]
+    },
+    {
+      "tag": "Kampas kopling",
+      "patterns":["Berapa lama umumnya kampas kopling sepeda motor Honda dapat bertahan sebelum perlu diganti?"],
+      "responses":[
+        "Umur pakai kampas kopling dapat bervariasi tergantung pada gaya berkendara, kondisi jalan, dan pemeliharaan yang dilakukan, tetapi umumnya, kampas kopling biasanya perlu diganti setiap beberapa puluhan ribu kilometer"
+      ]
+    },
+    {
+      "tag": "Filter Oli",
+      "patterns":["Kenapa filter oli harus di ganti?"],
+      "responses":[
+        "filter oli sebaiknya diganti setiap kali melakukan pergantian oli mesin, biasanya berkisar antara 5.000 hingga 10.000 kilometer tergantung pada kondisi penggunaan dan rekomendasi pabrikan"
+      ]
+    },
+    {
+      "tag": "Cakram motor",
+      "patterns":["Apa tandanya cakram motor perlu di ganti?"],
+      "responses":["adanya goresan atau retak pada permukaan cakram atau gejala pengereman tidak efektif bahkan setelah dilakukan perawatan"]
+    },
+    {
+      "tag": "Stang motor" ,
+      "patterns":["Sebutkan variasi stang motor yang tersedia"],
+      "responses":[
+        "Ya, terdapat berbagai macam variasi stang motor yang tersedia di pasaran, termasuk stang dengan bentuk, tinggi, lebar, atau material yang berbeda, sesuai dengan kebutuhan dan preferensi pengendara"
+      ]
+    },
+    {
+      "tag": "Ganti leher motor" ,
+      "patterns":["berapa harga ganti leher motor atau bearing?"],
+      "responses":["harga sekitar 30k-100k"]
+    },
+    {
+      "tag": "Oli Motor" ,
+      "patterns":["mengapa motor yamaha boros oli?"],
+      "responses":["karena produk yamaha cenderung mengalami penguapan lebih banyak ketimbang pesaing"]
     }
   ]
 }
